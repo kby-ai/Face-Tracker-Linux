@@ -4,6 +4,11 @@
   </a>  
 </p>
 
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
+
 # Face Tracking C++ Demo on Linux
 ## Overview
 We implemented real-time face-tracking technology in this demo project.
@@ -24,38 +29,34 @@ Go to the project folder and enter the following command.
 
 ## How to run
 Go to the build folder and run with the below command 
-  ```shell
+  ```bash
   ./<executive file name> --frame_num <frame number>
   ```
 for example:
-  ```shell
+  ```bash
     ./face_track --frame_num 150
   ```	
-If you need to save video file with tracking, you can run the command below
-  ```shell
+If you need to save a video file with tracking, you can run the command below
+  ```bash
     ./<executive file name> --video_out true
   ```
 for example:
-  ```shell
+  ```bash
     ./face_track --video_out true
   ```	
 TrackData contains one cropped face image per person, this can be used later for recognition purpose
-	```shell
+  ```bash
     TrackData track_data = GetTrackData(frame, tracks);
   ```
 ## Improvement
 
-This project can be improved by using kby-ai's face recognition SDK. The SDK requires a license.
+This project can be improved by using KBY-AI's face recognition SDK [here](https://github.com/kby-ai/Face-Recognition-SDK).
 
-- To request a license, please contact us:
+- To request SDK, please contact us:
 ```
 Email: contact@kby-ai.com
-
 Telegram: @kbyai
-
 WhatsApp: +19092802609
-
 Skype: live:.cid.66e2522354b1049b
-
 Facebook: https://www.facebook.com/KBYAI
 ```
