@@ -14,9 +14,8 @@
 We implemented real-time face-tracking technology in this demo project.
 This project can be built on Ubuntu 22.04 and model inference was implemented for web camera and real-time video streaming
 
-
-
-https://github.com/kby-ai/KBY-AI-Technology-Face-Tracker-Windows/assets/125717930/35940547-eda8-464d-83cc-75dd6246cc9d
+You can visit our YouTube video for our face tracking SDK's performance [here](https://www.youtube.com/watch?v=FVo7PPVBgfQ) to see how well our demo app works.</br></br>
+[![Face Tracking Demo](https://img.youtube.com/vi/FVo7PPVBgfQ/0.jpg)](https://www.youtube.com/watch?v=FVo7PPVBgfQ)</br>
 
 ## Install dependencies
 - Build OpenCV on your platform, follow the steps in the link below.
